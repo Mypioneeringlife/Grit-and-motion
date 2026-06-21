@@ -9,7 +9,7 @@ This repo has been updated for the GitHub Pages app at:
 - Split icon declarations into separate `any` and `maskable` entries
 - Added cache-busting icon URLs so Android/Chrome is less likely to reuse the old generic icon
 - Updated `service-worker.js` to clear old app caches
-- Added `favicon.svg` as a browser fallback icon
+- Added `.nojekyll` for cleaner GitHub Pages publishing
 
 ## Important phone step
 After this update publishes, remove the old home-screen shortcut/app from the phone first. Then reopen the GitHub Pages site in Chrome and install/add it again. Android often keeps the old shortcut icon cached until the previous one is removed.
