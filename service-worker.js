@@ -4,8 +4,7 @@ const APP_SHELL = [
   "/Grit-and-motion/index.html",
   "/Grit-and-motion/manifest.json",
   "/Grit-and-motion/app-icon-192.png",
-  "/Grit-and-motion/app-icon-512.png",
-  "/Grit-and-motion/favicon.svg"
+  "/Grit-and-motion/app-icon-512.png"
 ];
 
 self.addEventListener("install", event => {
