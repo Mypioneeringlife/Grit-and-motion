@@ -1,10 +1,10 @@
 {
   "name": "Grit & Motion",
-  "short_name": "Grit & Motion",
+  "short_name": "Grit",
   "description": "A simple daily movement tracker with steps, exercise logging, and get-active reminders.",
-  "id": "./",
-  "start_url": "./index.html",
-  "scope": "./",
+  "id": "/Grit-and-motion/",
+  "start_url": "/Grit-and-motion/?source=pwa&v=152",
+  "scope": "/Grit-and-motion/",
   "display": "standalone",
   "display_override": [
     "standalone",
@@ -22,16 +22,28 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "app-icon-192.png",
+      "src": "/Grit-and-motion/app-icon-192.png?v=152",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "app-icon-512.png",
+      "src": "/Grit-and-motion/app-icon-192.png?v=152",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Grit-and-motion/app-icon-512.png?v=152",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/Grit-and-motion/app-icon-512.png?v=152",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
