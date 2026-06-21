@@ -1,22 +1,15 @@
-# Grit & Motion Beta v1.5.1 PWA Install Ready
+# Grit & Motion Beta v1.5.2 Android Icon Fix
 
-This build fixes the install/app setup for GitHub Pages.
+This repo has been updated for the GitHub Pages app at:
+
+`https://mypioneeringlife.github.io/Grit-and-motion/`
 
 ## What changed
-- Added `manifest.json`
-- Added `<link rel="manifest" href="manifest.json">` to `index.html`
-- Confirmed app icons are referenced for install
-- Kept `service-worker.js` for installed-app/offline behavior
-- Added a small install prompt helper for browsers that support it
+- Updated `manifest.json` with the correct GitHub Pages scope and start URL
+- Split icon declarations into separate `any` and `maskable` entries
+- Added cache-busting icon URLs so Android/Chrome is less likely to reuse the old generic icon
+- Updated `service-worker.js` to clear old app caches
+- Added `favicon.svg` as a browser fallback icon
 
-## Upload these files to the root of your GitHub repo
-- `index.html`
-- `manifest.json`
-- `service-worker.js`
-- `app-icon-192.png`
-- `app-icon-512.png`
-- `grit-motion-logo.png`
-- `grit-motion-logo-splash.png`
-- `grit-motion-mark.png`
-- `README.md`
-- `android-native/`
+## Important phone step
+After this update publishes, remove the old home-screen shortcut/app from the phone first. Then reopen the GitHub Pages site in Chrome and install/add it again. Android often keeps the old shortcut icon cached until the previous one is removed.
